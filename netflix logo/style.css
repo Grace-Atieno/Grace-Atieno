@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  width: 120px;
+  height: 100px;
+}
+
+.bar {
+  position: absolute;
+  background-color: #e50914;
+  border-radius: 2px;
+}
+
+/* Left vertical bar */
+.left {
+  width: 20px;
+  height: 100%;
+  left: 0;
+}
+
+/* Right vertical bar */
+.right {
+  width: 20px;
+  height: 100%;
+  right: 0;
+}
+
+/* Diagonal bar forming the "N" */
+.diagonal {
+  width: 20px;
+  height: 100%;
+  left: 0;
+  transform: skewX(-25deg);
+  background-color: #e50914;
+  z-index: 1;
+  left: 50px;
+}
+
